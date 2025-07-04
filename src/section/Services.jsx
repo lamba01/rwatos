@@ -7,7 +7,7 @@ import carpet from "../assets/carpet.jpg";
 function Services() {
   return (
     <section>
-      <div className="max-w-3xl mx-auto px-6 py-12">
+      <div className="max-w-3xl mx-auto px-6 py-12" id="about">
         <h2 className="sm:text-4xl text-2xl font-bold text-center mt-8">
           4 Years of{" "}
           <span className="text-[#2F6D9A] underline decoration-[2px]">
@@ -29,7 +29,10 @@ function Services() {
       <h2 className="sm:text-4xl text-2xl font-bold text-center mt-4 capitalize">
         our products
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6 sm:px-12 py-16">
+      <div
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6 sm:px-12 py-16"
+        id="products"
+      >
         {/* Lighting */}
         <div className="bg-white shadow-md flex flex-col h-80 text-center hover:shadow-lg transition">
           <div className="h-2/3">

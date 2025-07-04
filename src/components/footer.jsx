@@ -3,7 +3,10 @@ import footerlogo from "../assets/IMG_1359.jpg";
 
 function Footer() {
   return (
-    <footer className="bg-[#061936] text-white pt-8 pb-2 px-6 mt-12">
+    <footer
+      className="bg-[#061936] text-white pt-8 pb-2 px-6 mt-12"
+      id="footer"
+    >
       <main className="flex justify-between">
         <div className="max-w-6xl flex items-center gap-5 space-y-2">
           <img src={footerlogo} alt="Rwatos logo" className="w-20" />

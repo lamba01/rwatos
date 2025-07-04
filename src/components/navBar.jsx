@@ -9,20 +9,19 @@ export default function navBar() {
       <div className="flex gap-5 md:gap-10 capitalize">
         <a
           className="text-sm md:text-lg text-black font-semibold hover:text-black"
-          href="/about"
+          href="#about"
         >
           about
         </a>
         <a
           className="text-sm md:text-lg text-black font-semibold hover:text-black"
-          href="/work"
+          href="#products"
         >
-          services
+          products
         </a>
         <a
-          className="text-sm md:text-lg text-black font-semibold hover:text-black hidden sm:block"
-          href="https://johncodes.xyz/#contact"
-          rel="noopener noreferrer"
+          className="text-sm md:text-lg text-black font-semibold hover:text-black"
+          href="#footer"
         >
           contact
         </a>
