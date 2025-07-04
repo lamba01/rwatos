@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import testimonial from "../assets/testimonial.png";
-import { FaQuoteLeft } from "react-icons/fa6";
+import testimonial from "../assets/hero-3.jpg";
 import { CgProfile } from "react-icons/cg";
 import { BiSolidQuoteAltLeft } from "react-icons/bi";
 
@@ -24,7 +23,7 @@ function Testimonial() {
   const [active, setActive] = useState(0);
 
   return (
-    <section className="relative py-16 px-6 sm:px-14">
+    <section className="relative py-16 px-6 sm:px-14 mb-96 sm:mb-0">
       <h3 className="text-center text-[#2F6D9A] underline decoration-[2px] sm:hidden block uppercase text-xl font-bold mb-2">
         testimonials
       </h3>

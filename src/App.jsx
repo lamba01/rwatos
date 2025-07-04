@@ -4,6 +4,7 @@ import Services from "./section/Services";
 import Banner from "./section/Banner";
 import Dream from "./section/Dream";
 import Testimonial from "./section/Testimonial";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Banner />
       <Dream />
       <Testimonial />
+      <Footer />
 
       {/* 
       <section class="py-16 bg-white text-center">
@@ -30,42 +32,6 @@ function App() {
           </div>
           <div>
             <p class="text-xl font-medium">📞 Dedicated Support</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-16 bg-gray-100">
-        <h2 class="text-3xl font-semibold text-center mb-12">Our Products</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto px-4">
-          <div class="bg-white rounded-lg shadow-md overflow-hidden">
-            <img
-              src="https://source.unsplash.com/400x300/?sofa,furniture"
-              class="w-full h-60 object-cover"
-              alt="Furniture"
-            />
-            <div class="p-4">
-              <h3 class="text-xl font-semibold">Modern Furniture</h3>
-            </div>
-          </div>
-          <div class="bg-white rounded-lg shadow-md overflow-hidden">
-            <img
-              src="https://source.unsplash.com/400x300/?rug,carpet"
-              class="w-full h-60 object-cover"
-              alt="Carpets"
-            />
-            <div class="p-4">
-              <h3 class="text-xl font-semibold">Stylish Carpets</h3>
-            </div>
-          </div>
-          <div class="bg-white rounded-lg shadow-md overflow-hidden">
-            <img
-              src="https://source.unsplash.com/400x300/?lighting,interior"
-              class="w-full h-60 object-cover"
-              alt="Lighting"
-            />
-            <div class="p-4">
-              <h3 class="text-xl font-semibold">Lighting Solutions</h3>
-            </div>
           </div>
         </div>
       </section>
