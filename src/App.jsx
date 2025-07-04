@@ -1,11 +1,13 @@
 import NavBar from "./components/navBar";
 import Hero from "./section/Hero";
+import Services from "./section/Services";
 
 function App() {
   return (
     <>
       <NavBar />
       <Hero />
+      <Services />
 
       {/* 
       <section class="py-16 bg-white text-center">

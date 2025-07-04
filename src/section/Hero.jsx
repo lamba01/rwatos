@@ -8,7 +8,7 @@ function Hero() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-black ">
             Elevate Interiors. Lower Costs.
           </h1>
-          <p className="text-lg text-black mb-6">
+          <p className="text-lg text-slate-700 mb-6">
             Partnering with UK retailers, interior designers, and developers to
             supply high-quality furniture, carpets, and lighting — all at
             unbeatable trade rates. Reliability, style, and value you can count

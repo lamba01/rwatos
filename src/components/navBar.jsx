@@ -7,41 +7,28 @@ export default function navBar() {
           src={test}
           alt=""
         /> */}
-        <h3 className="text-white font-bold text-lg">RWATOS</h3>
+        <h3 className=" font-bold text-xl text-[#2F6D9A]">RWATOS LTD</h3>
       </div>
       <div className="flex gap-5 md:gap-10 capitalize">
         <a
-          className="text-sm md:text-lg text-white hover:text-black"
+          className="text-sm md:text-lg text-black font-semibold hover:text-black"
           href="/about"
         >
           about
         </a>
         <a
-          className="text-sm md:text-lg text-white hover:text-black"
+          className="text-sm md:text-lg text-black font-semibold hover:text-black"
           href="/work"
         >
           services
         </a>
-        {/* <a
-          className="text-sm md:text-lg text-white hover:text-black"
-          href="projects"
-        >
-          projects
-        </a> */}
         <a
-          className="text-sm md:text-lg text-white hover:text-black hidden sm:block"
+          className="text-sm md:text-lg text-black font-semibold hover:text-black hidden sm:block"
           href="https://johncodes.xyz/#contact"
           rel="noopener noreferrer"
         >
           contact
         </a>
-        {/* <a
-          className="text-sm md:text-lg text-white hover:text-black"
-          href="/blog"
-          rel="noopener noreferrer"
-        >
-          blog
-        </a> */}
       </div>
     </nav>
   );
