@@ -1,6 +1,9 @@
 import NavBar from "./components/navBar";
 import Hero from "./section/Hero";
 import Services from "./section/Services";
+import Banner from "./section/Banner";
+import Dream from "./section/Dream";
+import Testimonial from "./section/Testimonial";
 
 function App() {
   return (
@@ -8,6 +11,9 @@ function App() {
       <NavBar />
       <Hero />
       <Services />
+      <Banner />
+      <Dream />
+      <Testimonial />
 
       {/* 
       <section class="py-16 bg-white text-center">

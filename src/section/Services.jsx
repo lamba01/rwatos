@@ -9,7 +9,7 @@ function Services() {
     <section>
       <div className="max-w-3xl mx-auto px-6 py-12">
         <h2 className="sm:text-4xl text-2xl font-bold text-center mt-8">
-          25 Years of{" "}
+          4 Years of{" "}
           <span className="text-[#2F6D9A] underline decoration-[2px]">
             Experience
           </span>
@@ -26,6 +26,9 @@ function Services() {
           className="w-full sm:h-[400px] h-[200px] my-6 rounded-2xl"
         />
       </div>
+      <h2 className="sm:text-4xl text-2xl font-bold text-center mt-4 capitalize">
+        our products
+      </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6 sm:px-12 py-16">
         {/* Lighting */}
         <div className="bg-white shadow-md flex flex-col h-80 text-center hover:shadow-lg transition">
