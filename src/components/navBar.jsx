@@ -10,19 +10,19 @@ export default function navBar() {
       </div>
       <div className="flex gap-5 md:gap-10 capitalize">
         <a
-          className="text-sm md:text-lg text-black font-semibold hover:text-black"
+          className="text-sm md:text-lg text-black font-semibold hover:underline"
           href="#about"
         >
           about
         </a>
         <a
-          className="text-sm md:text-lg text-black font-semibold hover:text-black"
+          className="text-sm md:text-lg text-black font-semibold hover:underline"
           href="#products"
         >
           products
         </a>
         <a
-          className="text-sm md:text-lg text-black font-semibold hover:text-black"
+          className="text-sm md:text-lg text-black font-semibold hover:underline"
           href="#footer"
         >
           contact

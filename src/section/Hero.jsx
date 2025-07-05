@@ -15,7 +15,7 @@ function Hero() {
             on
           </p>
           <a
-            href="#contact"
+            href="#footer"
             className="inline-block bg-white text-black px-6 py-3 rounded-xl text-lg font-semibold hover:bg-blue-400"
           >
             Request a Quote

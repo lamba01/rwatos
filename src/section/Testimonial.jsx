@@ -5,17 +5,14 @@ import { BiSolidQuoteAltLeft } from "react-icons/bi";
 
 const testimonials = [
   {
-    text: `Booking my flights has never been this easy! The seamless experience,
-    great deals, and hassle-free process make this my go-to travel
-    platform. I’ve explored multiple destinations without breaking the
-    bank. Highly recommended for stress-free travel!`,
-    name: "Sophie Carter",
-    location: "New York, USA",
+    text: `RWATOS has been a game-changer for my projects. Their product quality and trade pricing help me stay on budget without compromising on style`,
+    name: "Sarah O.",
+    location: "Developer, Manchester",
   },
   {
-    text: `This platform made planning my vacation a breeze! The deals were unbeatable and the process was so smooth. I’ll be recommending this to all my friends.`,
-    name: "Alex Morgan",
-    location: "Sydney, Australia",
+    text: `From carpets to lighting, RWATOS delivers on both aesthetics and reliability. They’ve made furnishing our developments far easier.`,
+    name: "Emma J",
+    location: "Interior designer, London",
   },
 ];
 
@@ -32,9 +29,9 @@ function Testimonial() {
         <img
           src={testimonial}
           alt="A decorated house"
-          className="sm:w-2/3 w-full h-72 sm:h-96 object-cover rounded-2xl sm:block hidden"
+          className="sm:w-2/3 w-full h-72 sm:h-80 object-cover rounded-2xl sm:block hidden"
         />
-        <h2 className="sm:w-1/3 w-full text-2xl sm:text-3xl font-semibold text-black drop-shadow-lg capitalize">
+        <h2 className="sm:w-1/3 w-full text-2xl sm:text-3xl font-semibold text-black drop-shadow-lg capitalize text-center sm:text-start">
           what our <span className="text-[#2F6D9A]">clients</span> say about us
         </h2>
         <div

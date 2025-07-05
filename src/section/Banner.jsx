@@ -11,7 +11,7 @@ function Banner() {
         Transform your home with Rwatos
       </h1>
       <button className=" bg-white text-black px-6 py-3 rounded-xl text-lg font-semibold hover:bg-blue-400">
-        <a href="#contact">Contact Us</a>
+        <a href="mailto:info@rwatosltd.com">Contact Us</a>
       </button>
     </section>
   );

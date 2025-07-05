@@ -4,7 +4,7 @@ import footerlogo from "../assets/IMG_1359.jpg";
 function Footer() {
   return (
     <footer
-      className="bg-[#061936] text-white pt-8 pb-2 px-6 mt-12"
+      className="bg-[#061936] text-white pt-8 pb-2 px-6 mt-14"
       id="footer"
     >
       <main className="flex flex-col sm:flex-row gap-5 justify-between">
